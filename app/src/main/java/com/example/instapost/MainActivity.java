@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         edtAge = findViewById(R.id.edtAge);
         edtActivity = findViewById(R.id.edtActivity);
         edtSkill = findViewById(R.id.edtSkill);
-        Log.i("TAG", "Message");
+        Log.i("TAG", "Messages");
 
     }
 
