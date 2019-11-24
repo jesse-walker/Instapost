@@ -3,6 +3,7 @@ package com.example.instapost;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         edtAge = findViewById(R.id.edtAge);
         edtActivity = findViewById(R.id.edtActivity);
         edtSkill = findViewById(R.id.edtSkill);
+        Log.i("TAG", "Message");
 
     }
 
